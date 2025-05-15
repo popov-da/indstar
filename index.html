@@ -24,25 +24,9 @@
     }
 
     .logo {
-      font-size: 2.8em;
-      font-weight: bold;
-      letter-spacing: 1px;
-      margin-bottom: 0.2em;
-    }
-
-    .logo span {
-      color: #fff;
-    }
-
-    .logo .accent {
-      font-weight: 300;
-    }
-
-    .star-icon {
-      font-size: 2em;
-      display: inline-block;
-      transform: rotate(15deg);
-      margin-left: 4px;
+      width: 300px;
+      max-width: 80%;
+      margin-bottom: 30px;
     }
 
     .divider {
@@ -89,9 +73,6 @@
     }
 
     @media (max-width: 600px) {
-      .logo {
-        font-size: 2em;
-      }
       h1 {
         font-size: 1.3em;
       }
@@ -102,13 +83,23 @@
   </style>
 </head>
 <body>
+
+  <!-- Встроенный SVG логотип -->
   <div class="logo">
-    <span>Ind</span><span class="accent">Star</span><span class="star-icon">★</span>
+    <!-- Начало SVG (вставлено из файла Group 27.svg) -->
+    <svg viewBox="0 0 466 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Здесь находится содержимое SVG -->
+      <!-- Примерная замена — вставьте ваш настоящий SVG из файла -->
+      <text x="0" y="100" font-size="80" fill="white" font-family="Arial, sans-serif">IndStar ★</text>
+    </svg>
+    <!-- Конец SVG -->
   </div>
-  <div class="divider"></div>
+
   <h1>Сайт в разработке</h1>
   <p>Мы скоро запустимся.<br>А пока вы можете ознакомиться с нашими работами:</p>
   <a href="https://indstar-portal.ru/" target="_blank" class="button">Перейти на портал</a>
+
   <div class="footer">© 2025 Центр инженерных технологий IndStar</div>
+
 </body>
 </html>
