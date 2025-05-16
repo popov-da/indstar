@@ -27,9 +27,9 @@ jobs:
           sudo apt-get update && sudo apt-get install -y libxml2-utils
 
       # 4. Удаляем все файлы .cgm
-      - name: Remove all .cgm files
-        continue-on-error: true
-        run: find . -name '*.cgm' -type f -delete
+      #- name: Remove all .cgm files
+      #  continue-on-error: true
+      #  run: find . -name '*.cgm' -type f -delete
 
       # 5. Минификация HTML/HTM
       - name: Minify HTML/HTM files
